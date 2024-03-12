@@ -1,0 +1,102 @@
+.principal{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.caja1{
+    background-color:pink;
+    margin: 15px;
+    width: 300px;
+    height: 670px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.caja1-1{
+    background-color: purple;
+    margin: 25px;
+    width: 100px;
+    height: 200px;
+    flex-direction: row;
+    display:flex ;
+    align-content: space-around;
+    
+    
+}
+
+
+.caja2{
+    background-color: black;
+    margin: 15px;
+    width: 400px;
+    height: 670px;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center; 
+    align-items: center;
+    
+   
+    
+} 
+.caja2-1{
+    background-color: orange;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-flow:row nowrap;
+    align-content: space-around;
+    flex-direction: column;
+    
+}
+
+  
+
+.caja3{
+    background-color: skyblue;
+    margin: 15px;
+    width: 300px;
+    height: 670px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.caja3-1{
+    background-color: slategray;
+    margin: 25px;
+    width: 300px;
+    height: 100px;
+    flex-direction: row;
+    display:flex ;
+    align-content: space-around;
+    flex-grow: 5;
+   
+    
+}
+.caja3-2{
+    background-color: slategray;
+    margin: 15px;
+    width: 100px;
+    height: 150px;
+    flex-direction: row;
+    display:flex ;
+    align-content: space-around;
+    
+   
+    
+}
+
